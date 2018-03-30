@@ -1,0 +1,46 @@
+{
+  "company": {
+    "description": "//div[@class='featured-block']//h4[text()='^VALUE^']/following-sibling::p"
+  },
+  "header": {
+    "loadingCircle": ".loading",
+    "logo": ".navbar-brand img",
+    "navigationLink": "//ul[contains(@class, 'navbar-nav')]//li//a[contains(text(), '^VALUE^')]",
+    "navigationLinks": "ul.nav",
+    "openDropdown": "//a[contains(text(), '^VALUE^')]/parent::li[contains(@class, 'open')]",
+    "socialIcons": ".social-icons"
+  },
+  "marketData": {
+    "container": "#stockTicker"
+  },
+  "recent": {
+    "transaction": "//div[contains(@ng-repeat, '^VALUE^')][1]"
+  },
+  "stats": {
+    "averageProcessingTime": "//div[text()='Average Processing Time']/following-sibling::div//p",
+    "bitcoinVolume": "//div[text()='Bitcoin Volume Equivalent']/following-sibling::div//p",
+    "container": ".stats",
+    "mostPopularTrade": "//div[text()='Most Popular Trade']/following-sibling::div//p",
+    "numberOfTransactions": "//div[text()='Transactions']/following-sibling::div//p",
+    "orderQuantityChart": "//canvas[@chart-data='qty']",
+    "orderValueChart": "//canvas[@chart-data='volume']"
+  },
+  "trade": {
+    "coinImage": "//div[@class='coin-image']//img[contains(@src, '^VALUE^')]",
+    "coinModal": ".coin-modal",
+    "container": ".coin-selection",
+    "continueButton": "#signup-form a.btn.btn-default",
+    "fromAddress": "input[name='refund']",
+    "header": "//h1[text()='We Buy and Sell Digital Assets']",
+    "inputCoin": ".input-coin button",
+    "inputCoinSelected": "//div[@class='input-coin']//span[@class='selected-coin']//img[contains(@src, '^VALUE^')]",
+    "instantRate": "//label[text()='Instant Rate']",
+    "maximumDeposit": "//label[text()='Deposit Max']",
+    "minerFee": "//label[text()='Miner Fee']",
+    "minimumDeposit": "//label[text()='Deposit Min']",
+    "outputCoin": ".output-coin button",
+    "outputCoinSelected": "//div[@class='output-coin']//span[@class='selected-coin']//img[contains(@src, '^VALUE^')]",
+    "toAddress": "input[name='withdrawal']",
+    "transactionModal": "#signup-form .form-heading:not(.ng-hide)"
+  }
+}
